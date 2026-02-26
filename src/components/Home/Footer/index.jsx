@@ -4,8 +4,12 @@ const Footer = () => {
   return (
     <div className="footer">
       <nav>
-        <a href="">Contact</a>
-         <a href="">Mentions légales</a>
+        <div className='contact'>
+          <a href="">Contact</a>
+        </div>
+        <div className='mentions'>
+           <a href="">Mentions légales</a>
+        </div>
       </nav>
     </div>
   )

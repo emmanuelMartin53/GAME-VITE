@@ -1,31 +1,15 @@
-@import "bootstrap/scss/bootstrap";
-
 .footer {
-    height: 50px;
-    background: linear-gradient(45deg, rgb(156,14,156), #191970);
-
+  background: linear-gradient(45deg, rgb(156,14,156), #191970);
+  padding: 50px;
 }
 
+.footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px; // espace entre les liens
+}
 
-.mentions {
-    list-style-type: none;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-
-
-
-
-    &__contact {
-        margin-right: 50px;
-        color:#fff;
-
-    }
-
-    &__legales {
-        margin-right: 50px;
-        color:#fff;
-    }
+.footer a {
+  color: white;
+  text-decoration: none;
 }
