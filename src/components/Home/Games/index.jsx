@@ -1,12 +1,14 @@
 import './game.scss';
+import Game from "./Game/game";
 
 
 
-const Game = () => {
+const Games = () => {
   return (
     <div className="game">
       <h2>Mes jeux</h2>
+      <Game />
     </div>
   )
 }
-export default Game;
+export default Games;
