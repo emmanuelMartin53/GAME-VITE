@@ -1,12 +1,14 @@
-import './header.scss';
-
+import "./header.scss";
 
 const Header = () => {
   return (
-    <div className="header bg-dark-subtle">
-      <h1>GAMES</h1>
-      <img src={"https://www.clionautes.org/wp-content/uploads/clionautes/IMG/jpg/banniere-histogames.jpg"} size="massive" centered />
-    </div>
-  )
-}
+    <header className="header">
+      <div className="header-overlay">
+        <h1 className="header-title">🎮 GAMES</h1>
+        <p className="header-subtitle">Découvrez mes jeux vidéo</p>
+      </div>
+    </header>
+  );
+};
+
 export default Header;

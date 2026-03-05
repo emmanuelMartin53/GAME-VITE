@@ -1,15 +1,26 @@
 .footer {
-  background: linear-gradient(45deg, rgb(156,14,156), #191970);
-  padding: 50px;
+  background: linear-gradient(145deg, #0f0f1a, #1a1a2e);
+  padding: 25px;
+  border-radius: 20px;
+  margin-top: 50px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
 }
 
 .footer nav {
   display: flex;
   justify-content: center;
-  gap: 40px; // espace entre les liens
+  gap: 40px;
 }
 
 .footer a {
-  color: white;
+  color: #eaeaea;
   text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #00d4ff;
+  transform: scale(1.1);
 }

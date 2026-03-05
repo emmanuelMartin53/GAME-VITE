@@ -1,7 +1,6 @@
 
 
 export default [
-
     {
       "id": 5,
       "title": "God of War",

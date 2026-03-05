@@ -5,6 +5,7 @@ import "./game.scss"
 
 
 const GamesList = () => {
+
   return (
     <div className="container">
       <h2 className="subtitle">Mes jeux</h2>
